@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Slay The Spire</h1>
+    <h2>Ironclad</h2>
+    <script>
+        cards=["Inflame", "Havoc", "Evolve", "Barricade", "Corruption", "Headbutt", "Hemokinesis", "Rupture", "Uppercut", "Bash", "Dropkick"]
+        cardimg=["Inflame.webp", "Havoc.webp", "Evolve.webp", "Barricade.webp", "Corruption.webp", "Headbutt.webp", "Hemokinesis.webp", "Rupture.webp", "Uppercut.webp", "Bash.webp", "Dropkick.webp"]
+        var i = 0;
+        while(i < cards.length){
+        document.write('<li><a href="https://slay-the-spire.fandom.com/wiki/' + cards[i] +'">' + cards[i] + '</a></li>');
+        document.write('<img src="' + cardimg[i] +'" width="150" height="200">')
+        i=i+1;
+        }
+    </script>
+</body>
+</html>
