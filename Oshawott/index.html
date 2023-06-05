@@ -3,7 +3,9 @@
 <head>
     <title>oshawott</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="oshagrid.css">
+    <link rel="stylesheet" href="./css/oshagrid.css">
+    <script src="./js/master.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
 <body>
     <h1>Oshawott</h1>
@@ -18,7 +20,8 @@
         <div>
             <ul class="body">
                 <div id="img">
-                    <img src="Oshawott.png" alt="oshawott_image" width="280" height="300">
+                    <img id="oshawott" src="Oshawott.png" alt="oshawott_image" width="280" height="300">
+                    <input id="evolver" type="button" value="evolve" onclick="evolvekey(this)">
                 </div>
                 <li><h2>Introduction</h2></li>
                     <p>Oshawott is a Water-type Pokémon introduced in Generation 5. It is a bipedal sea otter-like Pokémon. It has a spherical white head with small, triangular dark-blue ears on the sides.</p>
